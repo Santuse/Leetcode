@@ -1,33 +1,4 @@
-""" class Solution:
-
-
-    def twoSum(nums: list[int], target: int) -> list[int]:
-        diffs = {}
-
-        for i, n in enumerate(nums):
-            diff = target - n
-            if (diff in diffs):
-                return[diffs[diff], i]
-            diffs[n] = i
-
-
-vars = twoSum([1,2,3,4,5,6,7,8,9], 11)
-print(vars) """
-
-""" class TwoSum:
-    def twoSum(self, nums: list[int], target: int):
-        diffMap = {}
-        
-        for i, n in enumerate(nums):
-            diff = target-n
-            if(diff in diffMap):
-                #return [diffMap[diff], i]
-            diffMap[n] = i
-        return diffMap
-    
-
- """
-
+"""works, given target and int list, find two to sum"""
 class TwoSum:
     def twoSum(nums, target):
         num_to_index = {}
