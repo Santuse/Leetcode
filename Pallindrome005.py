@@ -7,6 +7,7 @@ class Pallindrome005(object):
             k = 0
             if i+2 <= len(s)-1 and s[i+2] == s[i]:                
                 print("i", i, n)
+                    
                 while len(s)>i+k+2 and s[i-k] == s[i+k+2]:
                     q = i-k
                     f = i+k+2

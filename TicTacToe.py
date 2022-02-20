@@ -59,8 +59,6 @@ class TicTacToe(object):
 
 
 
-
-
 t = TicTacToe()
 
 t.start()
